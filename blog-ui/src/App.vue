@@ -2,11 +2,13 @@
   <div id="layout">
     <!-- 头部 -->
     <Header />
+    
     <!-- 侧边栏 -->
     <div style="display: flex">
       <Aside />
-    <router-view />
+      <router-view style="flex:1" />
     </div>
+    
     <!-- 内容 -->
   </div>
   

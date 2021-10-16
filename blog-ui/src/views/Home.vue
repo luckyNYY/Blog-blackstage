@@ -25,14 +25,12 @@
           <el-button
             @click="handleEdit(scope.$index, scope.row)"
             type="primary"
-            size="small"
             >编辑</el-button
           >
           <el-popconfirm title="这是一段内容确定删除吗？">
             <el-button
               slot="reference"
               type="danger"
-              size="small"
               style="margin: 5px"
               @click="handleDelete(scope.$index, scope.row)"
               >删除</el-button
